@@ -25,8 +25,7 @@ public class Exam43125 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];
-        String input = br.readLine();
-        StringTokenizer st = new StringTokenizer(input);
+        StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
